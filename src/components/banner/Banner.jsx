@@ -11,21 +11,22 @@ function Banner() {
         
     })
   return (
-    <section  className='w-full h-[80vh] border-b-[1px] border-b-designColor m-auto flex items-center justify-center'>
-      <div className=''>
+    <section id='home' className='w-full h-[80vh] border-b-[1px] border-b-designColor m-auto flex items-center justify-center'>
+      <div className='flex flex-col gap-12'>
         <div className='flex flex-col gap-4'>
       <h4 className='text-lg'>
         Welcome to my World
       </h4>
-      <h1 className='text-6xl font-bold text-[#fff]'>Hi I 'am <span className='capitalize text-designColor'>Unique Shakya</span>,</h1>
-      <h2 className='text-4xl font-bold text-[#fff]'>a <span>{text} </span> <Cursor
+      <h1 className='text-6xl font-bold text-white'>Hi I 'am <span className='capitalize text-designColor'>Unique Shakya</span>,</h1>
+      <h2 className='text-4xl font-bold text-white'>a <span>{text} </span> <Cursor
        cursorBlinking="false"
         cursorStyle="|"
          cursorColor="#FF014F"
       /></h2>
       <p className='text-base leading-6 tracking-wide'>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Error atque magnam quidem magni tenetur modi aut tempore nulla omnis, excepturi, quibusdam officia blanditiis qui nihil, rerum distinctio ex dolorem iusto? </p>
+      </div>
       <div>
-        <h2 className='mt-9'>CONTACT WITH ME IN</h2>
+        <h2>CONTACT WITH ME IN</h2>
         <div className='flex gap-4'>
             <span className='bannerIcon'>
                 <FaFacebookF/>
@@ -37,7 +38,6 @@ function Banner() {
                 <FaLinkedin/>
                 </span>
         </div>
-      </div>
       </div>
       </div>
     </section>

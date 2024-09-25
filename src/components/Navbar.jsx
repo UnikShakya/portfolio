@@ -1,7 +1,7 @@
 import React from 'react'
 function Navbar() {
   return (
-    <div className='w-full h-20 mx-auto flex justify-between items-center border-b-[1px] border-b-[#939597]'>
+    <div className='w-full h-20 mx-auto sticky top-0 bg-bodyColor flex justify-between items-center border-b-[1px] border-b-[#939597]'>
         <div className='flex items-center'>
             <span className='italic font-bold text-designColor text-5xl'>U</span>
             <span className='italic font-bold text-lightText text-3xl'>NI</span>
