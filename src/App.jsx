@@ -2,6 +2,7 @@ import React from 'react'
 import Navbar from './components/Navbar'
 import Banner from './components/banner/Banner'
 import Project from './components/Project'
+import Contact from './components/Contact'
 
 function App() {
   return (
@@ -10,6 +11,7 @@ function App() {
       <Navbar />
       <Banner/>
       <Project/>
+      <Contact/>
     </div>
 
     </div>
