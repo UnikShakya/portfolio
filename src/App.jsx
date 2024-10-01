@@ -3,6 +3,8 @@ import Navbar from './components/Navbar'
 import Banner from './components/banner/Banner'
 import Project from './components/Project'
 import Contact from './components/Contact'
+import Footer from './components/Footer'
+import FooterBotttom from './components/FooterBotttom'
 
 function App() {
   return (
@@ -12,6 +14,8 @@ function App() {
       <Banner/>
       <Project/>
       <Contact/>
+      <Footer/>
+      <FooterBotttom/>
     </div>
 
     </div>

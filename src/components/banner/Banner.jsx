@@ -25,7 +25,7 @@ function Banner() {
       /></h2>
       <p className='text-base leading-6 tracking-wide'>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Error atque magnam quidem magni tenetur modi aut tempore nulla omnis, excepturi, quibusdam officia blanditiis qui nihil, rerum distinctio ex dolorem iusto? </p>
       </div>
-      <div>
+      <div className='flex flex-col gap-8'>
         <h2>CONTACT WITH ME IN</h2>
         <div className='flex gap-4'>
             <span className='bannerIcon'>
