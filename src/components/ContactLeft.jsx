@@ -9,7 +9,7 @@ function ContactLeft() {
                     <div className='flex flex-col gap-4'>
                         <h3 className='text-3xl font-bold text-white'>Unique Shakya</h3>
                         <p className='text-lg font-normal text-gray-200'>Frontend Developer</p>
-                        <p className='text-base text-gray-200 tracking-wide'>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptas quas quis suscipit in ex quibusdam?</p>
+                        <p className='text-base text-gray-200 tracking-wide'>I'm currently available to take on new projects, so feel free to contact me that you want me to work. You can contact anytime.</p>
                         <p className='text-base text-gray-400 flex items-center gap-3'>Phone: <span className='text-lightText'>+977 9847693340</span></p>
                         <p className='text-base text-gray-400 flex items-center gap-3'>Email: <span className='text-lightText'>shakyaunik123@gmail.com</span></p>
                     </div>
