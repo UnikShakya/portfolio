@@ -50,21 +50,21 @@ function Contact() {
     }
 
     return (
-        <section id="contact" className='w-full py-20 border-b-[1px] border-b-black'>
+        <section id="contact" className='w-full py-12 border-b-[1px] border-b-black'>
             <div className='flex justify-center items-center text-center'>
-                <h1 className='text-5xl font-bold capitalize text-[#D1D5DB] text-center'>Contacts</h1>
+                <h1 className='text-4xl md:text-5xl font-bold capitalize text-[#D1D5DB] text-center'>Contacts</h1>
             </div>
             <div className='w-full'>
-                <div className='w-full h-auto flex justify-between'>
+                <div className='w-full h-auto flex flex-col lgl:flex-row justify-between'>
                     <ContactLeft />
-                    <div className='w-[60%] h-full py-10 bg-gradient-to-r from-[#1b1d20] to-[#212427] flex flex-col gap-8 p-8 rounded-lg shadow-shadowOne'>
-                        <form className='w-full flex flex-col gap-6 py-5'>
+                    <div className='w-full lgl:w-[60%] h-full py-10 bg-gradient-to-r from-[#1b1d20] to-[#212427] flex flex-col gap-8 p-6 lgl:p-8 rounded-lg shadow-shadowOne'>
+                        <form className='w-full flex flex-col gap-4 lgl:gap-6 py-2 lgl:py-5'>
                             {/* Displaying error message */}
                             {errMsg && <p className='text-red-500 py-2 text-center'>{errMsg}</p>}
                             {successMsg && <p className='text-green-500'>{successMsg}</p>}
 
-                            <div className='w-full flex gap-8'>
-                                <div className='w-1/2 flex flex-col gap-2'>
+                            <div className='w-full flex flex-col lgl:flex-row gap-4 lgl:gap-8'>
+                                <div className='w-full lgl:w-1/2 flex flex-col gap-2'>
                                     <p className='text-sm text-gray-400 uppercase tracking-wide'>Your Name:</p>
                                     <input 
                                         onChange={(e) => setUsername(e.target.value)} 
@@ -74,7 +74,7 @@ function Contact() {
                                         aria-label="Your Name"
                                     />
                                 </div>
-                                <div className='w-1/2 flex flex-col gap-2'>
+                                <div className=' w-full lgl:w-1/2 flex flex-col gap-2'>
                                     <p className='text-sm text-gray-400 uppercase tracking-wide'>Phone Number:</p>
                                     <input 
                                         onChange={(e) => setPhonenumber(e.target.value)} 
