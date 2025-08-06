@@ -3,7 +3,7 @@ import ProjectCards from './ProjectCards'
 import { Element } from 'react-scroll'
 import recipe from "../assets/recipe.jpeg"
 // import netflix from "../assets/netflix.png"
-import VehicleParking from "../assets/vehicleparking.jpg"
+import VehicleParking from "../assets/vehicleParking.jpg"
 import trello from "../assets/trello.png"
 
 
