@@ -43,7 +43,7 @@ function Navbar() {
                   <span className='italic font-bold text-lightText text-xl'>NI</span>
                   <span className='italic font-bold text-designColor text-3xl'>K</span>
                 </div>
-                <p className='text-sm text-gray-400 mt-2'>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Explicabo ratione.</p>
+                <p className='text-sm text-gray-400 mt-2'>I’m a web developer who loves creating easy and useful websites that people enjoy using.</p>
               </div>
               <ul className="flex flex-col gap-4 items-center">
                 <li className='cursor-pointer text-gray-400 text-base tracking-wide hover:text-designColor duration-300'>
