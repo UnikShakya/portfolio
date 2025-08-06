@@ -10,11 +10,13 @@ function Navbar() {
 
   return (
     <div className='w-full h-20 mx-auto sticky z-10 top-0 bg-bodyColor flex justify-between items-center border-b-[1px] border-b-[#939597]'>
-      <div className='flex items-center'>
+        <Link to="home" smooth={true} duration={500} offset={-80}>
+      <div className='flex items-center cursor-pointer'>
         <span className='italic font-bold text-designColor text-5xl'>U</span>
         <span className='italic font-bold text-lightText text-3xl'>NI</span>
         <span className='italic font-bold text-designColor text-5xl'>K</span>
       </div>
+        </Link>
       <div>
         <ul className="hidden mdl:inline-flex justify-center items-center gap-6 lg:gap-12">
           <li className='cursor-pointer text-gray-400 text-base tracking-wide hover:text-designColor duration-300'>
